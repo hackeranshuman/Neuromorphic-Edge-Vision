@@ -1,0 +1,66 @@
+
+# ==============================
+# Python Cache
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Virtual Environments
+# ==============================
+.venv/
+.venv311/
+venv/
+env/
+ENV/
+
+# ==============================
+# Dataset (DVS128 / Synthetic)
+# ==============================
+data/*
+!data/.gitkeep
+!data/README.md
+
+# ==============================
+# Trained Models / Checkpoints
+# ==============================
+models/*
+!models/.gitkeep
+!models/README.md
+
+*.pth
+*.pt
+*.onnx
+*.ckpt
+*.h5
+*.pkl
+*.joblib
+
+# ==============================
+# Results and Generated Outputs
+# ==============================
+results/*
+!results/.gitkeep
+!results/README.md
+
+*.log
+*.tmp
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDE / Editor
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Operating System
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
